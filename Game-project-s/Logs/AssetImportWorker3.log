@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1415; Version 2009; 64bit' Language: 'vi' Physical Memory: 8073 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Tools\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/ForkGit/game-project-s/Game-project-s
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+55347
+Successfully changed project path to: D:/ForkGit/game-project-s/Game-project-s
+D:/ForkGit/game-project-s/Game-project-s
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 983.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path D:/Unity/Tools/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ForkGit/game-project-s/Game-project-s/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'D:/Unity/Tools/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Tools/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Tools/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Tools/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004121 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 155.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.202 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3203ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1339ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 157.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3764ms)
+		BeginReloadAssembly (435ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (3137ms)
+			LoadAssemblies (305ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1024ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (158ms)
+				BeforeProcessingInitializeOnLoad (293ms)
+				ProcessInitializeOnLoadAttributes (670ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.34 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 22.358100 ms (FindLiveObjects: 1.063800 ms CreateObjectMapping: 2.017600 ms MarkObjects: 18.821200 ms  DeleteObjects: 0.448300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Hobbit/Hobbit - attack12.png
+  artifactKey: Guid(016b7cb04ff01804e9b2ebd7b3664c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack12.png using Guid(016b7cb04ff01804e9b2ebd7b3664c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0bafac825ef0a658acd5c954057ae5') in 0.531614 seconds 
+  Import took 0.545215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Hobbit/Hobbit - attack11.png
+  artifactKey: Guid(0a7859127ee3374439f67087a93faffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack11.png using Guid(0a7859127ee3374439f67087a93faffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a11bb2ed6771c11bd06850395be35fb') in 0.075848 seconds 
+  Import took 0.108846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000805 seconds.
+  path: Assets/Hobbit
+  artifactKey: Guid(b3925bd83f39815409d8a2f0c5ace91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit using Guid(b3925bd83f39815409d8a2f0c5ace91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b327401762c3275120613fd6990009') in 0.032023 seconds 
+  Import took 0.039081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Hobbit/Hobbit - attack17.png
+  artifactKey: Guid(7ef6abad127ef1b4dadd4a31df5b76eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack17.png using Guid(7ef6abad127ef1b4dadd4a31df5b76eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18990ddb9e12871f492a3eef150db588') in 0.039497 seconds 
+  Import took 0.048388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000839 seconds.
+  path: Assets/Hobbit/Hobbit - attack1.png
+  artifactKey: Guid(8de527c35ca99d249b2b74caac41a317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack1.png using Guid(8de527c35ca99d249b2b74caac41a317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16622768539da27048a0344bee2bc09') in 0.085946 seconds 
+  Import took 0.113895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Hobbit/Hobbit - block4.png
+  artifactKey: Guid(8b828320070713945bbdb87f4a4e49ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - block4.png using Guid(8b828320070713945bbdb87f4a4e49ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb03eb56ee9b6a5c87004b170d52f50') in 0.076294 seconds 
+  Import took 0.102277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Background/Brown.png
+  artifactKey: Guid(f69b89c0b8117f24dac00d3430a22c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Brown.png using Guid(f69b89c0b8117f24dac00d3430a22c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ebc264b27c196b33608766b2e03662') in 0.043013 seconds 
+  Import took 0.058487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Background/Pink.png
+  artifactKey: Guid(cec1e1a8344bfa8418cb24a827521ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Pink.png using Guid(cec1e1a8344bfa8418cb24a827521ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba35d4b21cea7ea0aabde47b7d50282b') in 0.054006 seconds 
+  Import took 0.083517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001546 seconds.
+  path: Assets/Hobbit/Hobbit - attack5.png
+  artifactKey: Guid(8874514b55e53be44b775b25e66b002a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack5.png using Guid(8874514b55e53be44b775b25e66b002a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543c64624afb60d2cd6759be293df9de') in 0.087871 seconds 
+  Import took 0.112111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Hobbit/Hobbit - attack15.png
+  artifactKey: Guid(f6746286a2b74ff4796e6faeca6086c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack15.png using Guid(f6746286a2b74ff4796e6faeca6086c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44ca2cc7f0740095a163fd74117e8d5') in 0.039117 seconds 
+  Import took 0.050101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Background/Purple.png
+  artifactKey: Guid(5aef5aae1a397954c98cf13af7d18f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Purple.png using Guid(5aef5aae1a397954c98cf13af7d18f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e3e0c4ee4b737560bdb629b6221832') in 0.110037 seconds 
+  Import took 0.119006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Hobbit/Hobbit - attack9.png
+  artifactKey: Guid(d3082ad7a6d11c347a61fb22896eb4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack9.png using Guid(d3082ad7a6d11c347a61fb22896eb4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d4e926be293c3c3ac1fb87c2506488') in 0.041668 seconds 
+  Import took 0.049574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Hobbit/Hobbit - attack14.png
+  artifactKey: Guid(86a804efa1f020449abfdee41cdb5d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack14.png using Guid(86a804efa1f020449abfdee41cdb5d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3302f95df8e80072c676604bb2aa8b') in 0.060415 seconds 
+  Import took 0.115173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Background/Green.png
+  artifactKey: Guid(2c4b28c7912dafb4197b4230092e7104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Green.png using Guid(2c4b28c7912dafb4197b4230092e7104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba97fbf15a399ed7553e8c8a7ebdc2c') in 0.039706 seconds 
+  Import took 0.048955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Hobbit/Hobbit - block1.png
+  artifactKey: Guid(b5c3c39ec739b894ea8e742d36096fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - block1.png using Guid(b5c3c39ec739b894ea8e742d36096fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5661d7c86b13bd20e43d8b191703cdef') in 0.029509 seconds 
+  Import took 0.039252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Hobbit/Hobbit - attack8.png
+  artifactKey: Guid(7cb18ded3ff60c74dabe7c73c7851a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack8.png using Guid(7cb18ded3ff60c74dabe7c73c7851a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f438ceca43012c2b08ba972b88e7962') in 0.080197 seconds 
+  Import took 0.094572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001436 seconds.
+  path: Assets/Hobbit/Hobbit - attack2.png
+  artifactKey: Guid(fd63145bfc2fc074b8fdd1978813196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack2.png using Guid(fd63145bfc2fc074b8fdd1978813196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2d08dd31692301e029ce31ac93c114') in 0.043009 seconds 
+  Import took 0.051631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Hobbit/Hobbit - block3.png
+  artifactKey: Guid(4472db762c909934f90e8f716dbeaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - block3.png using Guid(4472db762c909934f90e8f716dbeaa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c7f4840d8333d37f71949e418c4883') in 0.103951 seconds 
+  Import took 0.115742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: Assets/Background/Gray.png
+  artifactKey: Guid(ae8bbb1b858cee941ab6ec108eb0a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Gray.png using Guid(ae8bbb1b858cee941ab6ec108eb0a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b912598a2857135535acc558430a56b0') in 0.036284 seconds 
+  Import took 0.049468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Hobbit/Hobbit - attack3.png
+  artifactKey: Guid(437eb4d3596f06245936935de94be7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack3.png using Guid(437eb4d3596f06245936935de94be7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744cddababc10e928c5a6c3574faa5a9') in 0.076765 seconds 
+  Import took 0.100303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003057 seconds.
+  path: Assets/Hobbit/Hobbit - block2.png
+  artifactKey: Guid(eba4e2003de28b145b65322d90e6d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - block2.png using Guid(eba4e2003de28b145b65322d90e6d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c84631c4450a0aad55953b0557c1d16') in 0.104041 seconds 
+  Import took 0.124306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001244 seconds.
+  path: Assets/Background/Yellow.png
+  artifactKey: Guid(c61964c7ceb5ba0469e15bd99e29cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Yellow.png using Guid(c61964c7ceb5ba0469e15bd99e29cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76ef1e99959b88f1c234f9fc04bda8a') in 0.044888 seconds 
+  Import took 0.062060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001487 seconds.
+  path: Assets/Hobbit/Hobbit - attack16.png
+  artifactKey: Guid(01338a60f72ca2742bb0bacb04bc8e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack16.png using Guid(01338a60f72ca2742bb0bacb04bc8e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5a759fbf0dc755de8894032dccf07b') in 0.459460 seconds 
+  Import took 0.546300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Hobbit/Hobbit - attack6.png
+  artifactKey: Guid(a9cee2dedba94af46ae491b3fc74ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack6.png using Guid(a9cee2dedba94af46ae491b3fc74ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b680413cc8910252b30c23ea32eeba5') in 0.191502 seconds 
+  Import took 0.201669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/Hobbit/Hobbit - attack10.png
+  artifactKey: Guid(25c3eae75d9e3f5489de3eafee4fd523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack10.png using Guid(25c3eae75d9e3f5489de3eafee4fd523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fd1564c77d7be1bed74d6fcc07e5c4') in 0.339979 seconds 
+  Import took 0.366872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001170 seconds.
+  path: Assets/Hobbit/Hobbit - attack4.png
+  artifactKey: Guid(93e7a1088f2e8ca48a44f812e246368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack4.png using Guid(93e7a1088f2e8ca48a44f812e246368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688212e9f76213fdcb54621dc31fa4bf') in 0.052940 seconds 
+  Import took 0.078797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Hobbit/Hobbit - attack13.png
+  artifactKey: Guid(1947a7ad24911f2468ba9a695687139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack13.png using Guid(1947a7ad24911f2468ba9a695687139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd57061c048e14c65a397da88d13363') in 0.117712 seconds 
+  Import took 0.144168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Background/Blue.png
+  artifactKey: Guid(544fb79e55e801046bb7b7d2015c3bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Blue.png using Guid(544fb79e55e801046bb7b7d2015c3bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b491842c61731b635fa3019dabfffadf') in 0.070864 seconds 
+  Import took 0.120804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Hobbit/Hobbit - attack7.png
+  artifactKey: Guid(a7e50c75c21d62b449c8202a5a585a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hobbit/Hobbit - attack7.png using Guid(a7e50c75c21d62b449c8202a5a585a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba6efc1ef38f91452c319beeaf0a558') in 0.068787 seconds 
+  Import took 0.085412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.033384 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.048803 seconds 
+  Import took 0.089554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.274782 seconds.
+  path: Assets/Scenes/Main Screen.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Screen.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f052ec5bc93bd488b9ee703606d9f6') in 0.078062 seconds 
+  Import took 0.102234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.580154 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667fb8d0b50471db93bcb617f4916b83') in 0.085602 seconds 
+  Import took 0.103486 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
